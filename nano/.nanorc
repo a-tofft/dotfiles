@@ -1,0 +1,34 @@
+# Settings for `nano` editor
+# Full list of settings might be shown via `man nano`
+# or here: https://www.nano-editor.org/dist/v3/nanorc.5.html
+
+# Editor:
+set morespace
+
+# TAB
+set tabsize 4
+set tabstospaces
+
+set trimblanks
+
+set softwrap
+set atblanks
+set constantshow
+
+# UX:
+set smooth
+
+# Extra files:
+set backup
+set backupdir "~/.nano-backups"
+set historylog
+
+# line numbers are copied with text,
+# it is not useful:
+set linenumbers
+
+# When making new lines
+set autoindent
+
+# If on Desktop 
+set mouse

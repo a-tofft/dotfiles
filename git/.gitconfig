@@ -1,0 +1,30 @@
+[user]
+    name = Anton Tofft
+    email = tofft.anton@gmail.com
+
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    pager = true
+    status = auto
+    ui = true
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+
+[push]
+    default = current
+
+[core]
+    editor = nano -w
+    autocrlf = input
+    pager = less -FRSX
+    
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+    
+[includeIf "gitdir:~/path/to/work/"]
+	path = ~/.gitconfig-work
